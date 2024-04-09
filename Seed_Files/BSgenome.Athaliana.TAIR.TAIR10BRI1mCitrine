@@ -1,0 +1,14 @@
+Package: BSgenome.Athaliana.TAIR.TAIR10BRI1mCitrine
+Title: TAIR10 with BRI1_mCitrine
+Description: TAIR10 with BRI1_mCitrine
+Version: 1.00
+organism: Arabidopsis thaliana
+common_name: A.thaliana
+provider: CW
+genome: TAIR10
+release_date: Aug 2022
+source_url: http://plants.ensembl.org/info/website/ftp/
+organism_biocview: Arabidopsis_thaliana
+BSgenomeObjname: Athaliana
+seqnames: c("1","2","3","4","5","Mt","Pt","BRI1_mCitrine")
+seqs_srcdir: /hpc/group/pbenfeylab/CheWei/Source_files/kallisto-bus/seqsrc_BRI1-mCitrine

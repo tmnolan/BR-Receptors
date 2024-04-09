@@ -1,0 +1,20 @@
+> library(BSgenome) 
+> forgeBSgenomeDataPkg("path/to/my/seed") 
+Depending on the size of the genome and your hardware, this can take between 2 minutes and 1 or 2 hours. 
+By default forgeBSgenomeDataPkg will create the source tree of the target package in the current directory. 
+Once forgeBSgenomeDataPkg is done, ignore the warnings (if any), quit R, and build the source package (tarball) 
+with 
+
+R CMD build <pkgdir> 
+
+where <pkgdir> is the path to the source tree of the package. 
+Then check the package with
+
+R CMD check <tarball> 
+ 
+where <tarball> is the path to the tarball produced by R CMD build.
+Finally install the package with 
+  
+R CMD INSTALL <tarball>
+ 
+ 

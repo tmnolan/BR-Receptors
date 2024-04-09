@@ -1,0 +1,20 @@
+Package: BSgenome.Athaliana.TAIR.TAIR10GL2BRI1GFP
+Title: TAIR10 with GFP
+Description: TAIR10 with GFP
+Version: 1.00
+organism: Arabidopsis thaliana
+common_name: A.thaliana
+provider: NCBI
+provider_version: 1.0
+genome: TAIR10
+release_date: Nov 2020
+release_name: TAIR10
+source_url: http://plants.ensembl.org/info/website/ftp/
+organism_biocview: Arabidopsis_thaliana
+BSgenomeObjname: Athaliana
+seqnames: c("1","2","3","4","5","Mt","Pt","GL2_BRI1_GFP")
+circ_seqs: character(0)
+seqs_srcdir: /hpc/group/pbenfeylab/CheWei/Source_files/kallisto-bus/seqsrc_GL2_BRI1_GFP
+seqfiles_suffix: .fa
+##ondisk_seq_format: fa
+##Ends here
