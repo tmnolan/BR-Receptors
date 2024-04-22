@@ -26,7 +26,13 @@ COPILOT filtering, label transfer, and integration are further described in [htt
 
 ## Create custom genome for alignment
 
+In R console:
+
+Load BSgenome package
+
 > library(BSgenome)
+
+Example of the seed file, fasta and gtf files can be found in this repo. The fasta and gtf files are which you can configure your customization. 
 
 > forgeBSgenomeDataPkg("path/to/my/seed")
 
