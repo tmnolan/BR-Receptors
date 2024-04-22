@@ -32,7 +32,8 @@ Load BSgenome package
 
 > library(BSgenome)
 
-Example of the seed file, fasta and gtf files can be found in this repo. The fasta and gtf files are which you can configure your customization. 
+Example of the seed file, fasta files can be found in this repo. The fasta files are which you can configure your customization. 
+Noticed that the gtf file used for read alignment (e.g. kallisto-bustools) needs to be edited so that it is compatible with the customized genome.
 
 > forgeBSgenomeDataPkg("path/to/my/seed")
 
